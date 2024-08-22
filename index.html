@@ -19,6 +19,7 @@
     <!-- CSS Style -->
 <link rel="stylesheet" href="Styles/style.css">
 
+    <!-- Page Title and Favicon -->
     <title>Rinterio</title>
     <link rel="shortcut icon" href="./assets/livingroom (1).png" type="image/x-icon">
 
@@ -40,7 +41,7 @@
                     <li class="font-normal hover:font-[600]"><a>Contact US</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end space-x-3">
+                <div class="navbar-end space-x-5">
                     <a href="#" class="hidden lg:block"><i class="fa-solid fa-magnifying-glass text-gray-600 hover:text-black"></i></a>
                     <a href="#" class="hidden lg:block"><i class="fa-solid fa-cart-shopping  text-gray-600 hover:text-black"></i></a>
                     <a class="hidden lg:flex btn rounded-3xl bg-lime-400 hover:bg-lime-600 px-6">Book Consult <div class="bg-black rounded-full py-0.5 px-1.5"><i class="fa-solid fa-arrow-right -rotate-45 text-white text-lg "></i></div></a>
@@ -70,11 +71,117 @@
                       <li class="font-normal hover:font-[600]"><a>Book Consult</a></li>
                       <li class="font-normal hover:font-[600]"><a>Contact US</a></li>
                       <li class="font-normal hover:font-[600]"><a><i class="fa-solid fa-cart-shopping"></i></a></li>
-                      <li class="font-normal hover:font-[600]"><input type="text" placeholder="search"></li>
+                      <li class="font-normal hover:font-[600]"><input type="search" placeholder="search"></li>
                     </ul>
                   </div>
               </div>
         </nav>
+        <!-- banner section -->
+        <section class="mt-8 lg:mt-12 flex flex-col justify-center items-center">
+          <!-- banner image -->
+           <div><img src="./assets/banner.png" alt="banner image"></div>
+           <!-- banner texts -->
+           <div class="text-center">
+               <!-- banner title -->
+                <div class="mb-4 lg:mb-6 w-3/4 text-3xl lg:text-[64px] leading-none font-extrabold mx-auto"><h1>A barn house of this design has a striking appearance</h1></div>
+                <!--banner sub-title -->
+                <div class="mx-auto mb-5 lg:mb-8 max-w-5xl px-4 text-center font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</div>
+           </div>
+           <div>
+             <button class="sm:btn-lg btn bg-lime-200 hover:bg-lime-500 rounded-full">
+                <a href="#" class="lg:text-xl font-bold">View Details</a>
+                <div class="bg-lime-400 text-black rounded-full py-0.5 px-1.5"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-3xl font-semibold"></i></div>
+             </button>
+            </div>
+        </section>
     </header>
+
+    <!-- This Section includes all the sections with grey background -->
+
+    <section class="mt-10 lg:mt-28 bg-gray-100">
+
+       <!-- About Us section -->
+       <section class=" relative py-8 lg:py-24 lg:px-16 w-5/6 mx-auto grid grid-cols-1 gap-6 md:grid-cols-2">
+        <!-- row-left -->
+          <div class=""> 
+              <img class="hidden lg:block absolute top-12 -left-16 rotate-30" src="./assets/Vector.png" alt="">
+                <div class="mb-6 flex items-center space-x-2 font-bold">
+                  <button class="bg-white text-black border-0 rounded-full"><i class="fa-solid fa-arrow-right"></i>about us</button>
+                </div>
+                <!-- Section title -->
+                <div class="w-5/6 mb-6">
+                    <h1 class=" mb-6 text-2xl lg:text-[40px] leading-none font-bold text-center lg:text-left ">We design thoughtful,<br>liveable spaces</h1>
+                    <p class="">The barn house captivates with its blend of rustic charm and <br> 
+                      modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <!-- rows-cards -->
+                <div class="gap-6">
+                  <!-- commercial-card -->
+                  <div class="mb-6 lg:mb-10 card card-side bg-base-100 shadow-md p-6 ">
+                    <figure>
+                      <img class="sm:mr-4"
+                        src="./assets/commercial.png"
+                        alt="Commercial" />
+                    </figure>
+                    <div class="Commercial">
+                      <h2 class="card-title">Commercial</h2>
+                      <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                  <!-- Residential-card -->
+                  <div class="card card-side bg-base-100 shadow-md p-6 gap-6">
+                    <figure>
+                      <img
+                        src="./assets/residential.png"
+                        alt="Residential" />
+                    </figure>
+                    <div class="Commercial">
+                      <h2 class="card-title">Commercial</h2>
+                      <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <!-- row-right -->
+          <div>
+             <img src="./assets/Rectangle.png" alt="">
+          </div>
+       </section>
+
+       <!-- Stat section -->
+
+       <section class="flex text-center">
+        <div class="w-5/6 mx-auto stats stats-vertical lg:stats-horizontal shadow">
+          <div class="stat">
+            <i class="text-3xl fa-regular fa-message"></i>
+            <div class="stat-value">235+</div>
+            <div class="font-medium stat-desc">Happy Client Review</div>
+          </div>
+        
+          <div class="stat">
+            <i class="text-3xl fa-regular fa-building"></i>
+            <div class="stat-value">50+</div>
+            <div class="font-medium stat-desc">Departments</div>
+          </div>
+        
+          <div class="stat">
+            <i class="text-3xl fa-solid fa-people-group"></i>
+            <div class="stat-value">30K+</div>
+            <div class="font-medium stat-desc">Our Happy Clients</div>
+          </div>
+          <div class="stat">
+            <i class="text-3xl fa-solid fa-user-group"></i>
+            <div class="stat-value">307+</div>
+            <div class="font-medium stat-desc">Our Staff Members</div>
+          </div>
+        </div>
+       </section>
+
+       <!-- How We Works Section -->
+
+       <section>
+  
+       </section>
+    </section>
 </body>
 </html>
