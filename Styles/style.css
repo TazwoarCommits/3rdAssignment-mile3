@@ -4,3 +4,14 @@
     font-weight: <weight>;
     font-style: normal;
   }
+
+
+  .disc{
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer-bg{
+    background-color: rgb(28, 28, 28);
+  }
