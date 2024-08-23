@@ -276,7 +276,7 @@
 
           <!-- Grid-Layout-Section -->
 
-          <div class="container w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-6 lg:gap-6">
+          <div class="container w-11/12 mx-auto lg:py-12 grid grid-cols-1 lg:grid-cols-6 lg:gap-6">
               <!-- div-1 -->
                <div class="container my-auto border border-solid p-6 rounded-2xl md:col-span-4">
                 <div class="flex flex-col md:flex-row gap-8">
@@ -325,14 +325,106 @@
 
     </section>
 
+    <!-- Articles and News Section -->
+
+    <section class="container w-10/12 mx-auto lg:mt-24">
+        <div class="text-center">
+          <button class="btn bg-lime-100 mb-4 lg:mb-8 py-2 px-4 rounded-full"><i class="fa-solid fa-arrow-right-long"></i>Let's Connect</button>
+          <h1 class="text-2xl lg:text-4xl font-bold mb-6 ">Read Our Articles and News</h1>
+          <p class="text-sm lg:text-base mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        </div> 
+
+        <!-- Cards -->
+             <!--card-1 -->
+          <div class="container w-9/12 mx-auto flex flex-col lg:flex-row gap-8">
+            <div class="card card-compact bg-base-100  lg:w-4/12 shadow-xl">
+              <figure>
+                <img
+                  src="assets/article1.png"
+                  alt="article1" />
+              </figure> 
+              <div class="card-body">
+                <div class="flex gap-4">
+                   <p><i class="fa-solid fa-calendar-days"></i>July14, 2024</p>
+                    <p><i class="fa-solid fa-user"></i>By Admin</p>
+                </div>
+                <h2 class="card-title">How to choose the furniture right  of your home.</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                <div class="card-actions justify-start">
+                  <button class=" btn bg-white px-0.5 rounded-full">
+                    <a href="#" class="lg:text-sm font-bold">View Details</a>
+                    <div class="bg-lime-400 text-black rounded-full py-0.5 px-1.5"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-sm font-semibold"></i></div>
+                 </button>
+                </div>
+              </div>
+            </div>
+           
+              <!--card-2 -->
+
+                <div class="card card-compact bg-base-100 lg:w-4/12 shadow-xl">
+                  <figure>
+                    <img
+                      src="assets/article2.png"
+                      alt="article2" />
+                  </figure> 
+                  <div class="card-body">
+                    <div class="flex gap-4">
+                       <p><i class="fa-solid fa-calendar-days"></i>July14, 2024</p>
+                        <p><i class="fa-solid fa-user"></i>By Admin</p>
+                    </div>
+                    <h2 class="card-title">How to choose the furniture right  of your home.</h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                    <div class="card-actions justify-start">
+                      <button class=" btn bg-white px-0.5 rounded-full">
+                        <a href="#" class="lg:text-sm font-bold">View Details</a>
+                        <div class="bg-lime-400 text-black rounded-full py-0.5 px-1.5"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-sm font-semibold"></i></div>
+                     </button>
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Card-3 -->
+
+                <div class="card card-compact bg-base-100 lg:w-4/12 shadow-xl">
+                  <figure>
+                    <img
+                      src="assets/article3.png"
+                      alt="article3" />
+                  </figure> 
+                  <div class="card-body">
+                    <div class="flex gap-4">
+                       <p><i class="fa-solid fa-calendar-days"></i>July14, 2024</p>
+                        <p><i class="fa-solid fa-user"></i>By Admin</p>
+                    </div>
+                    <h2 class="card-title">How to choose the furniture right  of your home.</h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                    <div class="card-actions justify-start">
+                      <button class=" btn bg-white px-0.5 rounded-full">
+                        <a href="#" class="lg:text-sm font-bold">View Details</a>
+                        <div class="bg-lime-400 text-black rounded-full py-0.5 px-1.5"><i class="fa-solid fa-arrow-right -rotate-45 lg:text-sm font-semibold"></i></div>
+                     </button>
+                    </div>
+                  </div>
+                </div>
+           </div>
+              
+
+    </section>
+
     <!-- Discussion section -->
 
-    <section class="py-24 disc">
+    <section class="lg:my-24 py-24 disc">
+
+      <!-- Text-Parts -->
+
        <div class="text-center">
         <button class="btn bg-lime-100 mb-4 lg:mb-8 py-2 px-4 rounded-full"><i class="fa-solid fa-arrow-right-long"></i>Let's Connect</button>
         <h1 class="text-2xl lg:text-5xl font-bold mb-4 lg:mb-6 " >Let’s Discuss Next Project</h1>
-        <p class="text-sm lg:text-base">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        <p class="text-sm lg:text-base mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
        </div>
+
+       <!-- Form-Starts -->
+
        <form action="" class=" lg:w-5/12 mb-6 lg:mb-8 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 px-4">
           <input class="py-4 px-4 rounded-3xl" type="text" placeholder="First Name*">
           <input class="py-4 px-4 rounded-3xl" type="text" placeholder="Last Name*">
@@ -340,6 +432,9 @@
           <input class="py-4 px-4 rounded-3xl" type="email" placeholder="email" required>
           <textarea class="lg:col-span-2 py-4 px-4 rounded-3xl" name="" placeholder="Write Your Message Here" id="" cols="100" rows="10"></textarea>
        </form>
+
+       <!-- Mail-Button -->
+
        <div class="text-center">
          <a class="w-10/12 lg:w-5/12 mx-auto lg:flex btn rounded-3xl bg-lime-400 hover:bg-lime-600 px-6">Send Mail <div class="bg-black rounded-full py-0.5 px-1.5"><i class="fa-solid fa-arrow-right -rotate-45 text-white text-lg "></i></div></a>
        </div>
