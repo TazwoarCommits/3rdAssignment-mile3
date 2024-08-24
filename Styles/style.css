@@ -5,7 +5,9 @@
     font-style: normal;
   }
 
-
+.subtitle{
+  color: rgb(73, 73, 73);;
+}
   .disc{
     background-image: url(/assets/bg.jpg);
     background-repeat: no-repeat;
