@@ -9,7 +9,7 @@
   color: rgb(73, 73, 73);;
 }
   .disc{
-    background-image: url(/assets/bg.jpg);
+    background: url(/assets/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
